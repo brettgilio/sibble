@@ -1,7 +1,11 @@
+#include <errno.h>
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
+#include <fcntl.h>
+#include <linux/oom.h>
 
 #if HAVE_SHADOW_H
 #include <shadow.h>
