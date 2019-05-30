@@ -11,6 +11,13 @@
 #include <shadow.h>
 #endif
 
+enum {
+      INITIALIZE,
+      INPUT,
+      FAILED,
+      NUMCOLS
+};
+
 struct locker {
   
 };
