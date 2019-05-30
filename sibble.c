@@ -32,7 +32,7 @@ struct randr {
 // Static definitions
 
 static void
-keepalive(void) {
+keep_alive(void) {
   FILE *f;
   const char oomfile[]= "/proc/self/oom_score_adj";
 
