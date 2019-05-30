@@ -16,7 +16,7 @@ struct locker {
 };
 
 struct randr {
-  int is_active;
+  int env_active;
   int env_root;
   int err_root;
 };
