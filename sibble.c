@@ -19,7 +19,8 @@ enum {
 };
 
 struct locker {
-  
+  int address;
+  // implement xrandr Window properties
 };
 
 struct randr {
