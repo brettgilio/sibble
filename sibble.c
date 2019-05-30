@@ -45,6 +45,7 @@ keep_alive(void) {
 
 int
 main(int argc, char **argv) {
-
+  struct randr xrandmap; 
+  
   return 0;
 }
